@@ -1,4 +1,4 @@
-#import streamlit as st
+import streamlit as st
 import yfinance as yf
 
 st.set_page_config(
@@ -13,7 +13,7 @@ empresa = yf.Ticker(f"{ticker}.SA")
 
 tickerDF = empresa.history(period = '1d', 
                            start = '2023-01-01',
-                           end = '2024-10-11')
+                           end = '2024-10-10')
 
 #col1, col2, col3 = st.columns([1,1,1])
 col1, col3 = st.columns([1,1])
