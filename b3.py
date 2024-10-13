@@ -12,7 +12,7 @@ ticker = st.text_input('Digite o ticker da ação', 'BBAS3')
 empresa = yf.Ticker(f"{ticker}.SA")
 
 tickerDF = empresa.history(period = '1d', 
-                           start = '2019-01-01',
+                           start = '2023-01-01',
                            end = '2024-10-13')
 
 col1, col2, col3 = st.columns([1,1,1])
