@@ -21,7 +21,7 @@ with col1:
 #with col2:
 #    st.write(f"**Mercado:** {empresa.info['industryDisp']}")
 with col3:
-    st.write(f"**Preço Atual: R$** {empresa.info['currentPrice']}")
+    st.write(f"**Preço Atual:** R$ {empresa.info['currentPrice']}")
 
 st.line_chart(tickerDF.Close)
 st.bar_chart(tickerDF.Dividends)
