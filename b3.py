@@ -20,7 +20,7 @@ with col1:
     st.write(f"**Empresa:** {empresa.info['longName']}")
 with col2:
 #    st.write(f"**Mercado:** {empresa.info['industryDisp']}")
-     st.write(f"**Mercado:** {empresa.info['industry']}")
+#     st.write(f"**Mercado:** {empresa.info['industry']}")
 with col3:
     st.write(f"**Preço Atual:** R$ {empresa.info['currentPrice']}")
 
