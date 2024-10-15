@@ -26,4 +26,4 @@ with col3:
     st.write(f"**Preço Atual:** R$ {empresa.info['currentPrice']}")
 
 st.line_chart(tickerDF.Close)
-st.bar_chart(tickerDF.Dividends)
+#st.bar_chart(tickerDF.Dividends)
