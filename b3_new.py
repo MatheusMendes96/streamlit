@@ -27,7 +27,7 @@ except HTTPError as e:
 # Exibir informações apenas se os dados forem carregados com sucesso
 if empresa_data:
     try:
-        tickerDF = empresa.history(period='1d', start='2023-01-01', end='2024-10-10')
+        tickerDF = empresa.history(period='1d', start='2023-01-01', end='2024-10-14')
 
         col1, col3 = st.columns([1, 1])
         with col3:
