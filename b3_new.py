@@ -10,7 +10,8 @@ st.set_page_config(
 
 st.header('**Painel de Preço de Fechamento e Dividendos - Ações Brasileiras da B3**')
 
-ticker = st.text_input('Digite o ticker da ação', 'BBAS3')
+#ticker = st.text_input('Digite o ticker da ação', 'BBAS3')
+ticker = st.text_input('Digite o ticker da ação')
 empresa = yf.Ticker(f"{ticker}.SA")
 
 try:
